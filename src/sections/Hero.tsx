@@ -39,7 +39,7 @@ export function Hero() {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const headline = ["Building", "Modern", "Scalable", "Web", "Applications"];
+  const headline = ["Creating", "Immersive", "Unity", "Game", "Experiences"];
 
   return (
     <section
@@ -68,7 +68,7 @@ export function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-60" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
           </span>
-          Available for freelance & full-time opportunities
+          Unity Game Developer • Available for Freelance & Full-Time Roles
         </div>
 
         <h1
@@ -96,10 +96,11 @@ export function Hero() {
           className="mt-7 max-w-2xl text-base md:text-lg text-muted-foreground leading-relaxed"
           data-testid="hero-sub"
         >
-          I'm Husnain Abid — a MERN Stack Developer specializing in building responsive
-          and scalable web applications using React.js and Node.js. I help businesses
-          turn ideas into real-world products with clean UI, efficient APIs, and
-          production-ready deployments.
+
+          I’m Muhammad Sannan, a Unity Game Developer passionate about creating engaging 2D
+          and 3D mobile games. With 4+ years of professional experience, I specialize in
+          gameplay programming, scalable game architecture, performance optimization, and
+          clean, maintainable Unity code.
         </p>
 
         <div ref={ctaRef} className="mt-10 flex flex-wrap items-center gap-4">
@@ -117,7 +118,7 @@ export function Hero() {
             testId="hero-cta-hire"
           >
             <Sparkles className="h-4 w-4 text-primary" />
-            Hire Me
+            Let's Build a Game
           </MagneticButton>
         </div>
 
@@ -126,16 +127,16 @@ export function Hero() {
           className="mt-16 grid max-w-2xl grid-cols-3 gap-8 text-sm text-muted-foreground"
         >
           <div>
-            <div className="font-display text-2xl text-foreground">1.5+</div>
+            <div className="font-display text-2xl text-foreground">4+</div>
             <div className="mt-1">Years Experience</div>
           </div>
           <div>
-            <div className="font-display text-2xl text-foreground">50+</div>
-            <div className="mt-1">Projects Delivered</div>
+            <div className="font-display text-2xl text-foreground">20+</div>
+<div className="mt-1">Games Developed</div>
           </div>
           <div>
-            <div className="font-display text-2xl text-foreground">MERN</div>
-            <div className="mt-1">Full Stack Focus</div>
+            <div className="font-display text-2xl text-foreground">Unity</div>
+<div className="mt-1">2D • 3D • Mobile Games</div>
           </div>
         </div>
 

@@ -7,10 +7,10 @@ import { SKILLS } from "@/lib/data";
 gsap.registerPlugin(ScrollTrigger);
 
 const STATS = [
-  { label: "Years Experience", to: 2, suffix: "+" },
-  { label: "Projects Completed", to: 50, suffix: "+" },
-  { label: "Technologies Used", to: 10, suffix: "+" },
-  { label: "Client Work", to: 20, suffix: "+" },
+  { label: "Years Experience", to: 4, suffix: "+" },
+  { label: "Games Developed", to: 20, suffix: "+" },
+  { label: "Game Genres", to: 8, suffix: "+" },
+  { label: "Unity Technologies", to: 15, suffix: "+" },
 ];
 
 
@@ -66,8 +66,8 @@ export function About() {
           <div className="lg:col-span-7">
             <SectionHeading
               eyebrow="About"
-              title="MERN Stack Developer focused on building real-world web applications."
-              description="I'm Husnain Abid — a Full Stack MERN Developer with hands-on experience in building scalable and responsive web applications. I have worked on 50+ client projects, mainly focusing on frontend development with React.js while also handling backend APIs and deployments."
+              title="Unity Game Developer passionate about creating engaging mobile gaming experiences."
+              description="I'm Muhammad Sannan, a Unity Game Developer with 4+ years of professional experience in developing 2D and 3D mobile games. I specialize in gameplay programming, scalable game architecture, performance optimization, and clean C# development. From hyper-casual games to tower defense and football simulations, I enjoy transforming creative ideas into polished gaming experiences."
             />
             <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
               {STATS.map((s) => (
@@ -91,10 +91,10 @@ export function About() {
                 </div>
                 <ul className="mt-5 space-y-4 text-sm text-foreground/90 leading-relaxed">
                   {[
-                    "Strong focus on clean and responsive UI using React.js and Tailwind CSS.",
-                    "Experience working on multiple client projects in fast-paced environments.",
-                    "Write maintainable and reusable code with proper structure and best practices.",
-                    "Comfortable with full-stack development including APIs, databases, and deployment.",
+                    "Develop gameplay systems from scratch using Unity and C# with clean, maintainable architecture.",
+                    "Build scalable game systems using Scriptable Objects, Object Pooling, Factory Pattern, MVP, and FSM.",
+                    "Optimize mobile games using Unity Profiler, batching techniques, V-Sync tuning, and performance profiling.",
+                    "Collaborate with designers and artists to deliver polished, engaging, and high-performance gaming experiences.",
                   ].map((line) => (
                     <li key={line} className="flex gap-3">
                       <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary glow-blue" />
@@ -119,7 +119,7 @@ export function About() {
 
         <div className="mt-20">
           <div className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-            Stack I build with
+Technologies & Tools
           </div>
           <div
             ref={stripRef}

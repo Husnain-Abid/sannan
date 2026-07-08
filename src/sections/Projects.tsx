@@ -47,12 +47,12 @@ export function Projects() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <SectionHeading
-            eyebrow="Projects"
-            title="Some of my recent work"
-            description="A selection of projects I've worked on using the MERN stack, focusing on frontend performance, backend APIs, and real-world client requirements."
+            eyebrow="Featured Games"
+            title="Games I've Built with Unity"
+            description="A collection of mobile games I've developed using Unity and C#, ranging from sports and puzzle games to hyper-casual and tower defense experiences. Each project focuses on scalable architecture, engaging gameplay, and optimized performance."
           />
           <div className="text-xs uppercase tracking-[0.22em] text-muted-foreground">
-            2024 — 2026
+            2022 — Present
           </div>
         </div>
 

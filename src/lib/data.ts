@@ -18,122 +18,143 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    slug: "doctor-findy",
-    title: "DoctorFindy",
-    category: "Healthcare Web App",
+    slug: "football-games-2023",
+    title: "Football Games 2023 Offline",
+    category: "Sports Game",
     year: "2024",
     cover:
-      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Online doctor appointment booking platform.",
-    stack: ["React.js", "Laravel API", "Tailwind CSS"],
+      "https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=1600&q=80",
+    tagline: "Offline football game featuring multiple game modes and challenging levels.",
+    stack: [
+      "Unity",
+      "C#",
+      "Scriptable Objects",
+      "Football Kit",
+      "Mobile Development",
+    ],
     problem:
-      "Users needed an easy way to find doctors and book appointments online without manual hassle.",
+      "Build a scalable football game with multiple gameplay modes while keeping the codebase easy to maintain.",
     solution:
-      "Developed responsive frontend using React.js and integrated Laravel APIs for booking, search, and user management.",
+      "Developed reusable gameplay systems using Scriptable Objects and integrated football plugins to accelerate development.",
     outcome:
-      "Improved booking flow and user experience with fast and responsive UI, making it easier for users to find and book doctors.",
-  live: "https://doctorfindy.com/",
-    },
-  {
-    slug: "dream-hire",
-    title: "Dream Hire",
-    category: "Freelance Marketplace",
-    year: "2025",
-    cover:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Fiverr-inspired freelance marketplace platform.",
-    stack: ["React.js", "Redux Toolkit", "Tailwind CSS"],
-    problem:
-      "Freelancers and clients needed a platform to connect and manage services efficiently.",
-    solution:
-      "Built a responsive UI with role-based access and state management using Redux Toolkit.",
-    outcome:
-      "Delivered a smooth user experience with structured workflows for buyers and sellers.",
-    github: "https://github.com/Husnain-Abid/dream-hire",
-    live: "https://dream-hire-five.vercel.app/",
-
+      "Successfully delivered 27 engaging levels with an optimized and extendable architecture.",
   },
-  {
-    slug: "freepoint-home",
-    title: "FreePoint Home",
-    category: "SaaS Platform",
-    year: "2025",
-    cover:
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Home customization platform with dynamic pricing.",
-    stack: ["Next.js", "TypeScript", "Node.js", "Express"],
-    problem:
-      "Users needed a way to customize home designs with real-time pricing updates.",
-    solution:
-      "Developed full-stack application with dynamic configuration logic and REST APIs.",
-    outcome:
-      "Enabled users to customize designs interactively with accurate pricing feedback.",
 
-    github: "https://github.com/Husnain-Abid/home_customization",
-    live: "https://freepointhomes.com/",
-  },
   {
-    slug: "clearset-ai",
-    title: "ClearSet AI",
-    category: "Business Website",
-    year: "2025",
-    cover:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Modern AI solutions website with 3D interactions.",
-    stack: ["Next.js", "TypeScript", "Three.js", "GSAP"],
-    problem:
-      "Client needed a high-end website to showcase AI services with engaging visuals.",
-    solution:
-      "Built interactive UI using Three.js and GSAP animations with modern design.",
-    outcome:
-      "Delivered a visually engaging website that improved brand presentation.",
-
-    github: "https://github.com/Husnain-Abid/clearset",
-    live: "https://clearset.vercel.app/",
-
-  },
-  {
-    slug: "client-dashboard",
-    title: "Admin Dashboard",
-    category: "Web Application",
+    slug: "shuriken-hit",
+    title: "Shuriken Hit Challenge",
+    category: "Hyper Casual Game",
     year: "2024",
     cover:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Custom admin dashboard for managing data and users.",
-    stack: ["React.js", "Node.js", "MongoDB"],
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80",
+    tagline: "A precision-based arcade game with addictive gameplay.",
+    stack: [
+      "Unity",
+      "C#",
+      "Scriptable Objects",
+      "MVP",
+      "FSM",
+    ],
     problem:
-      "Client required a centralized system to manage users and application data.",
+      "Create a lightweight hyper-casual game with reusable gameplay systems for future expansion.",
     solution:
-      "Developed full-stack dashboard with API integration and CRUD functionality.",
+      "Designed scalable gameplay architecture using Scriptable Objects, MVP, and Finite State Machine patterns.",
     outcome:
-      "Improved efficiency by centralizing data management and workflows.",
-
-    github: "https://github.com/Husnain-Abid/dashboard-dreamhire-seller",
-    live: "https://dashboard-dreamhire-seller.vercel.app/#",
+      "Built 60 unique levels while maintaining a clean, maintainable codebase.",
   },
+
   {
-    slug: "stellar-bulldogs",
-    title: "Stellar Bulldogs",
-    category: "E-commerce Website",
-    year: "2025",
+    slug: "punch-fight",
+    title: "Punch Fight Tung Tung Hit",
+    category: "Action Game",
+    year: "2024",
     cover:
-      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=1600&q=80",
-    tagline: "Bulldog-focused eCommerce store for showcasing and selling puppies.",
-    stack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=80",
+    tagline: "Fast-paced action game with physics-driven combat mechanics.",
+    stack: [
+      "Unity",
+      "C#",
+      "Quaternions",
+      "Scriptable Objects",
+      "FSM",
+    ],
     problem:
-      "The client needed an online platform to showcase available bulldogs and manage inquiries in a professional and user-friendly way.",
+      "Develop responsive combat mechanics while keeping gameplay systems reusable.",
     solution:
-      "Developed a responsive eCommerce-style website with structured listings, detailed pages, and smooth navigation. Focused on clean UI and optimized performance for better user engagement.",
+      "Implemented quaternion-based movement and scalable architecture using MVP and FSM patterns.",
     outcome:
-      "Delivered a visually appealing and easy-to-use platform that improved online presence and simplified customer interaction and inquiries.",
+      "Delivered polished gameplay with reusable systems for future feature expansion.",
+  },
 
-    github: "https://github.com/Husnain-Abid/stellarbulldogs",
-    live: "https://www.stellarbulldogs.com/",
+  {
+    slug: "screw-nut-bolt",
+    title: "Screw Nut Bolt Puzzle",
+    category: "Puzzle Game",
+    year: "2023",
+    cover:
+      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80",
+    tagline: "A satisfying puzzle experience built entirely from scratch.",
+    stack: [
+      "Unity",
+      "C#",
+      "Scriptable Objects",
+      "Performance Optimization",
+    ],
+    problem:
+      "Create a smooth puzzle game that performs consistently across mobile devices.",
+    solution:
+      "Implemented the complete gameplay system from scratch while optimizing V-Sync and reusable game architecture.",
+    outcome:
+      "Delivered smooth gameplay with scalable systems ready for future content updates.",
+  },
 
-  }
+  {
+    slug: "basketball-hoop",
+    title: "Basketball Hoop Offline",
+    category: "Sports Game",
+    year: "2023",
+    cover:
+      "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1600&q=80",
+    tagline: "Offline basketball game focused on smooth gameplay and performance.",
+    stack: [
+      "Unity",
+      "C#",
+      "Scriptable Objects",
+      "Unity Profiler",
+    ],
+    problem:
+      "Ensure stable FPS and optimized rendering for a mobile sports game.",
+    solution:
+      "Optimized batching, frame rate stability, and reusable gameplay systems using Scriptable Objects.",
+    outcome:
+      "Achieved smooth gameplay with reduced frame spikes and better mobile performance.",
+  },
 
+  {
+    slug: "toilet-tower-defense",
+    title: "Toilet Tower Defense",
+    category: "Strategy / Tower Defense",
+    year: "2023",
+    cover:
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80",
+    tagline: "A complete tower defense game inspired by Plants vs. Zombies.",
+    stack: [
+      "Unity",
+      "C#",
+      "Object Pooling",
+      "MVP",
+      "Factory Pattern",
+      "FSM",
+      "Grid System",
+    ],
+    problem:
+      "Develop a complete tower defense game with scalable enemy AI, towers, and game systems.",
+    solution:
+      "Built the project entirely from scratch using object pooling, factory pattern, MVP architecture, delegates, events, and a custom grid system.",
+    outcome:
+      "Delivered a fully functional tower defense game with reusable architecture, optimized performance, and clean code.",
+  },
 ];
-
 
 
 export type Service = {
@@ -144,53 +165,53 @@ export type Service = {
 
 export const SERVICES: Service[] = [
   {
-    title: "Frontend Development",
+    title: "Unity Game Development",
     description:
-      "Responsive and high-performance user interfaces built with React.js and modern UI practices. Focused on clean design, usability, and smooth user experience.",
+      "End-to-end development of engaging 2D and 3D games using Unity and C#. From prototypes to production-ready mobile games.",
     bullets: [
-      "React.js · JavaScript (ES6+)",
-      "Tailwind CSS · Responsive Design",
-      "Reusable Components & Optimization",
+      "2D & 3D Game Development",
+      "Unity Engine · C#",
+      "Mobile Game Development",
     ],
   },
   {
-    title: "Full Stack Web Development",
+    title: "Gameplay Programming",
     description:
-      "End-to-end web application development using the MERN stack. From frontend to backend APIs and database integration.",
+      "Designing and implementing fun, responsive, and scalable gameplay mechanics with clean architecture and reusable code.",
     bullets: [
-      "MongoDB · Express.js · React · Node.js",
-      "REST API Development",
-      "Authentication & CRUD Systems",
+      "Game Mechanics",
+      "Player Controls & AI",
+      "Level & Gameplay Systems",
     ],
   },
   {
-    title: "Backend Development",
+    title: "Game Architecture",
     description:
-      "Scalable backend systems with Node.js and Express. Clean architecture, API handling, and database management for real-world applications.",
+      "Building maintainable and scalable game systems using industry-standard design patterns and Unity best practices.",
     bullets: [
-      "Node.js · Express.js",
-      "RESTful APIs",
-      "MongoDB & MySQL Integration",
+      "Scriptable Objects",
+      "MVP · FSM · Factory Pattern",
+      "Object Pooling & Events",
     ],
   },
   {
-    title: "API Integration",
+    title: "Performance Optimization",
     description:
-      "Seamless integration of third-party and custom APIs to extend application functionality and improve user workflows.",
+      "Optimizing Unity games for smooth gameplay across Android and iOS by reducing bottlenecks and improving rendering performance.",
     bullets: [
-      "REST API Integration",
-      "Axios / Fetch",
-      "Data Handling & Error Management",
+      "Unity Profiler",
+      "FPS & Memory Optimization",
+      "Batching & V-Sync Tuning",
     ],
   },
   {
-    title: "Deployment & Hosting",
+    title: "Advanced Unity Solutions",
     description:
-      "Deploying web applications on VPS with domain setup, SSL configuration, and production optimization.",
+      "Implementing modern Unity technologies, multiplayer foundations, and third-party integrations to build scalable game experiences.",
     bullets: [
-      "VPS Deployment",
-      "Domain & SSL Setup",
-      "Production Build Optimization",
+      "DOTS & ECS",
+      "Netcode for GameObjects (NGO)",
+      "Playable Ads & Asset Integration",
     ],
   },
 ];
@@ -205,82 +226,86 @@ export type Testimonial = {
 export const TESTIMONIALS: Testimonial[] = [
   {
     quote:
-      "The work was solid and he was very accommodating when our business requirements changed mid-project. Smooth communication throughout.",
-    name: "Bruce H.",
-    role: "Business Owner",
-    company: "United States",
+      "Sannan consistently develops clean, scalable Unity systems and always focuses on gameplay quality and performance optimization.",
+    name: "Senior Unity Developer",
+    role: "Technical Lead",
+    company: "Highbit Solution",
   },
   {
     quote:
-      "Second time working together — this time on deployment of a complex full-stack project. Consistently delivers and solves problems efficiently.",
-    name: "Jason T.",
-    role: "Startup Founder",
-    company: "United States",
+      "He quickly adapts to new game mechanics and delivers maintainable code using modern Unity architecture and design patterns.",
+    name: "Project Lead",
+    role: "Game Development Team",
+    company: "Six Edge Technologies",
   },
   {
     quote:
-      "Completed everything on time and went above and beyond to ensure satisfaction. Highly recommended for web development work.",
-    name: "Marc P.",
-    role: "Client",
-    company: "United States",
+      "His attention to performance, debugging, and code quality helped us deliver polished mobile games on schedule.",
+    name: "Development Manager",
+    role: "Game Studio",
+    company: "Pakistan",
   },
   {
     quote:
-      "Great job as always. Clean delivery and very reliable developer for ongoing web projects.",
-    name: "Skeeter F.",
-    role: "Repeat Client",
-    company: "United States",
-  },
-  {
-    quote:
-      "Great communication and very easy to work with. Understood requirements quickly and delivered as expected.",
-    name: "Rafiq I.",
-    role: "Client",
-    company: "Sweden",
-  },
-  {
-    quote:
-      "Exceptional frontend execution with strong attention to UI detail and responsiveness across devices.",
-    name: "Ricky S.",
-    role: "UI/UX Client",
-    company: "United States",
-  },
-  {
-    quote:
-      "Helped redeploy and restructure my full-stack application. Now I can even manage basic edits myself — very helpful experience.",
-    name: "Josh B.",
-    role: "Founder",
-    company: "United States",
+      "A dependable Unity developer who communicates well, collaborates effectively, and always looks for better technical solutions.",
+    name: "Team Lead",
+    role: "Game Development",
+    company: "Pakistan",
   },
 ];
 
+
+
 export const SKILLS: { name: string; group: string }[] = [
-  // Frontend
-  { name: "JavaScript (ES6+)", group: "Frontend" },
-  { name: "React.js", group: "Frontend" },
-  { name: "Next.js", group: "Frontend" },
-  { name: "Tailwind CSS", group: "Frontend" },
-  { name: "HTML5", group: "Frontend" },
-  { name: "CSS3", group: "Frontend" },
+  // Game Engine
+  { name: "Unity", group: "Game Engine" },
+  { name: "C#", group: "Programming" },
 
-  // Backend
-  { name: "Node.js", group: "Backend" },
-  { name: "Express.js", group: "Backend" },
-  { name: "REST APIs", group: "Backend" },
+  // Game Development
+  { name: "2D Game Development", group: "Game Development" },
+  { name: "3D Game Development", group: "Game Development" },
+  { name: "Gameplay Programming", group: "Game Development" },
+  { name: "Mobile Game Development", group: "Game Development" },
+  { name: "Game Mechanics", group: "Game Development" },
+  { name: "Level Design", group: "Game Development" },
 
-  // Database
-  { name: "MongoDB", group: "Database" },
-  { name: "MySQL", group: "Database" },
+  // Architecture & Patterns
+  { name: "Scriptable Objects", group: "Architecture" },
+  { name: "Object Pooling", group: "Architecture" },
+  { name: "MVP Pattern", group: "Architecture" },
+  { name: "Factory Pattern", group: "Architecture" },
+  { name: "Finite State Machine (FSM)", group: "Architecture" },
+  { name: "Design Patterns", group: "Architecture" },
+  { name: "Delegates & Events", group: "Architecture" },
 
-  // Tools / Others
-  { name: "Git & GitHub", group: "Tools" },
-  { name: "Redux Toolkit", group: "Frontend" },
-  { name: "Context API", group: "Frontend" },
-  { name: "API Integration", group: "Frontend" },
+  // Performance
+  { name: "Unity Profiler", group: "Optimization" },
+  { name: "Performance Optimization", group: "Optimization" },
+  { name: "Batching Optimization", group: "Optimization" },
+  { name: "V-Sync Optimization", group: "Optimization" },
+  { name: "Debugging & Testing", group: "Optimization" },
 
-  // Deployment
-  { name: "VPS Deployment", group: "DevOps" },
-  { name: "Domain & SSL Setup", group: "DevOps" },
+  // Latest Unity Technologies
+  { name: "DOTS (Data-Oriented Tech Stack)", group: "Advanced Unity" },
+  { name: "Netcode for GameObjects (NGO)", group: "Advanced Unity" },
+  { name: "Unity ECS", group: "Advanced Unity" },
+
+  // Third-Party Assets
+  { name: "RCC", group: "Assets & Plugins" },
+  { name: "Invector", group: "Assets & Plugins" },
+  { name: "Football Kit", group: "Assets & Plugins" },
+  { name: "Luna Playworks", group: "Assets & Plugins" },
+  { name: "Playable Ads", group: "Assets & Plugins" },
+
+  // Development Tools
+  { name: "Visual Studio", group: "Tools" },
+  { name: "VS Code", group: "Tools" },
+  { name: "JetBrains Rider", group: "Tools" },
+
+  // General
+  { name: "Problem Solving", group: "Professional Skills" },
+  { name: "Clean Code", group: "Professional Skills" },
+  { name: "Game Architecture", group: "Professional Skills" },
 ];
 
 export const NAV_LINKS = [
