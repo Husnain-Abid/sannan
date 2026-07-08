@@ -80,17 +80,17 @@ export function Contact() {
                 {
                   icon: EnvelopeIcon,
                   label: "Email",
-                  href: "mailto:husnainabid066@gmail.com",
+                  href: "mailto:sannan903@gmail.com",
                 },
-                {
-                  icon: GithubIcon,
-                  label: "GitHub",
-                  href: "https://github.com/Husnain-Abid",
-                },
+                // {
+                //   icon: GithubIcon,
+                //   label: "GitHub",
+                //   href: "https://github.com/Husnain-Abid",
+                // },
                 {
                   icon: LinkedinIcon,
                   label: "LinkedIn",
-                  href: "https://www.linkedin.com/in/husnain-abid-9a9384266/",
+                  href: "https://www.linkedin.com/in/muhammad-sannan-47450820a/",
                 },
               ].map(({ icon: Icon, label, href }) => (
                 <a

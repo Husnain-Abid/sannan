@@ -70,7 +70,7 @@ export function Services() {
           <SectionHeading
             eyebrow="Services"
             title="What I can build for you"
-            description="I specialize in building modern web applications using the MERN stack, focusing on performance, scalability, and clean user experience."
+            description="I specialize in developing engaging 2D and 3D Unity games, creating scalable gameplay systems, optimizing performance, and delivering polished mobile gaming experiences using modern Unity technologies and best practices."
           />
 
         </div>

@@ -7,14 +7,15 @@ export function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="font-display text-4xl md:text-6xl font-extrabold tracking-tight">
-              Let's build something{" "}
-              <span className="text-primary text-glow">great together.</span>
+              Let's create amazing{" "}
+              <span className="text-primary text-glow">games together.</span>
             </div>
 
             <p className="mt-4 max-w-xl text-sm text-muted-foreground">
-              Currently available for freelance and full-time opportunities as a
-              MERN Stack Developer, working with clients to build modern and scalable
-              web applications.
+              Available for freelance and full-time opportunities as a Unity
+              Game Developer, helping studios and clients build engaging,
+              high-performance 2D and 3D games for mobile and desktop
+              platforms.
             </p>
           </div>
 
@@ -24,19 +25,20 @@ export function Footer() {
             data-cursor="hover"
             data-testid="footer-cta"
           >
-            Start a project <ArrowUpRight className="h-4 w-4" />
+            Start Your Game Project <ArrowUpRight className="h-4 w-4" />
           </a>
-
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-white/5 pt-8 text-xs text-muted-foreground md:flex-row md:items-center md:justify-between">
-          <div>© {new Date().getFullYear()} Husnain Abid. All rights reserved.</div>
+          <div>
+            © {new Date().getFullYear()} Muhammad Sannan. All rights reserved.
+          </div>
 
           <div className="flex items-center gap-5">
             <a href="#top" className="hover:text-foreground transition-colors">
               Back to top
             </a>
-            <span>Built with React · MERN Stack Developer</span>
+            <span>Built with Next.js · Unity Game Developer</span>
           </div>
         </div>
       </div>

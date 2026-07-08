@@ -32,35 +32,38 @@ export function FloatingChat() {
           {/* Header */}
           <div className="flex items-center gap-3">
             <div className="grid h-10 w-10 place-items-center rounded-full bg-primary/15 overflow-hidden">
-              <Image
+              {/* <Image
                 src="/icon.png"
                 alt="Logo"
                 width={28}
                 height={28}
                 className="object-contain"
-              />
+              /> */}
             </div>
 
 
             <div>
-              <div className="text-sm font-medium">Husnain Abid</div>
+              <div className="text-sm font-medium">Muhammad Sannan</div>
               <div className="text-xs text-muted-foreground flex items-center gap-1.5">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
                 Usually replies within a few hours
               </div>
+
             </div>
           </div>
 
           {/* Message */}
           <div className="mt-4 rounded-2xl bg-white/[0.03] p-4 text-sm text-foreground/85 leading-relaxed">
-            Hey 👋
-            Drop your project details here — I’ll get back to you within 24 hours.
-            If it’s urgent, mention your timeline for faster response.
+            👋 Hi! Looking for a Unity Game Developer?
+            <br />
+            Share your game idea, project requirements, or collaboration details. I
+            specialize in developing high-quality 2D & 3D Unity games and typically
+            respond within 24 hours.
           </div>
 
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/923368538500?text=Hi%20Husnain%2C%20I%20want%20to%20discuss%20a%20project"
+            href="https://wa.me/923257993132?text=Hi%20Muhammad%20Sannan%2C%20I%20would%20like%20to%20discuss%20a%20Unity%20game%20development%20project."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90"

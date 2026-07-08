@@ -53,7 +53,7 @@ export function Loader() {
         ref={wordRef}
         className="relative font-display text-5xl md:text-7xl font-extrabold tracking-tight"
       >
-        {"HUSNAIN.DEV".split("").map((c, i) => (
+        {"SANNAN.DEV".split("").map((c, i) => (
           <span
             key={i}
             className={`inline-block ${c === "." ? "text-primary text-glow" : ""}`}
